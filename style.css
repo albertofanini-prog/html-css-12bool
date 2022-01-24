@@ -46,6 +46,13 @@ section{
     border: 2px solid white;
 }
 
-.green{
+.debug [class*="green"]{
     background-color: #00E165;
+    border: 1px solid #006CFA;
+}
+
+.debug [class*="noborder"]{
+    border: none;
+    padding: 20px 0px;
+    border-bottom: 2px solid white;
 }
