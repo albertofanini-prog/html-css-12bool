@@ -24,10 +24,28 @@
     flex: 0 0 auto;
 }
 
+section{
+    padding-bottom: 30px;
+}
+
+/*-----ITEMS STYLE---*/
+
+.text{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
 /*-----DEBUG-----*/
 
 .debug [class*="col"]{
     background-color: #006CFA;
-    padding: 20px 0;
+    padding: 20px 5px;
     border: 2px solid white;
+}
+
+.green{
+    background-color: #00E165;
 }
