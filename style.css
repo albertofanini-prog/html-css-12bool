@@ -51,8 +51,46 @@ section{
     border: 1px solid #006CFA;
 }
 
-.debug [class*="noborder"]{
+.debug [class*="lessborder"]{
     border: none;
     padding: 20px 0px;
     border-bottom: 2px solid white;
+}
+
+.flex__start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex__center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex__end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.big {
+    height: 75px;
+}
+
+.small{
+    height: 30px;
+}
+
+.flex__top{
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex__middle{
+    display: flex;
+    align-items: center;
+}
+
+.flex__bottom{
+    display: flex;
+    align-items: flex-end;
 }
